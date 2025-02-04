@@ -1,10 +1,13 @@
-package com.projects.NetFlix.repository;
+package com.projects.netflix.repository;
 
-import com.projects.NetFlix.entity.User;
+import com.projects.netflix.entity.User;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, ObjectId> {
+
+    User findByUsername(String username);
+
 }

@@ -1,4 +1,4 @@
-package com.projects.NetFlix;
+package com.projects.netflix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

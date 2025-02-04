@@ -1,6 +1,6 @@
-package com.projects.NetFlix.repository;
+package com.projects.netflix.repository;
 
-import com.projects.NetFlix.entity.Movie;
+import com.projects.netflix.entity.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
